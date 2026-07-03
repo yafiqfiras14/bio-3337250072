@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil - Tugas pertemuan 4 Alvin Yafiq Firas</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Alvin Yafiq Firas</h1>
+      <p>Mahasiswa Informatika, UNTIRTA</p>
+    </header>
+
+    <main>
+      <section id="tentang">
+        <h2>Tentang Saya</h2>
+        <p><strong>NIM:</strong> 33337250072</p>
+        <p><strong>Hobi:</strong> Berolahraga dan bermain alat musik</p>
+      </section>
+
+      <section id="skill">
+        <h2>Bahasa Pemrograman Favorit</h2>
+        <ul>
+          <li>c++</li>
+        </ul>
+      </section>
+
+      <section id="target">
+        <h2>Target Setelah Lulus</h2>
+        <p><mark>
+          Dapat memanfaatkan dengan baik ilmu yang telah saya perlajari selama saya berkuliah dan dapat membahagiakan keluarga serta orang-orang terdekat  
+        </p></mark>
+      </section>
+
+      <section id="riwayat">
+        <h2>Riwayat Pendidikan</h2>
+        <table class="table table-hover">
+          <tr>
+    <td>2025 - Sekarang</td>
+    <td>
+        <a href="https://maps.app.goo.gl/aVjtrRCp8762tn5f7" target="_blank">
+            S1 Informatika, Universitas Sultan Ageng Tirtayasa
+        </a>
+    </td>
+</tr>
+
+<tr>
+    <td>2021 - 2024</td>
+    <td>
+        <a href="https://maps.app.goo.gl/8eDJQCFR3ceXAjbQA" target="_blank">
+            MAS Al-rahmah
+        </a>
+    </td>
+</tr>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Hubungi saya : <a href="https://github.com/yafiqfiras14" style="color: white">yafiqfiras14</a> |
+        
+      </p>
+    </footer>
+  </body>
+</html>
