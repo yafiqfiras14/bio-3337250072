@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fa;
+    color: #262626;
+    margin: 0;
+}
+
+header {
+    background-color: #068219;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding:20px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    flex: 1 1 calc(50% - 20px);
+    max-width: 500px;
+    box-sizing: border-box;
+}
+.highlight {
+    color: #0E8F87;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #068219;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #262626;
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #068219;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section {
+        flex: none;
+        width: 90%;
+        max-width: 600px;
+    }
+}
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+body{
+    transition: 0.3s;
+}
+
+body.dark-mode{
+    background:#0d1117;
+    color:#f0f6fc;
+}
+
+body.dark-mode header{
+    background:#161b22;
+    color:white;
+}
+
+body.dark-mode section{
+    background:#161b22;
+    color:#f0f6fc;
+    border:1px solid #30363d;
+    box-shadow:0 5px 10px rgba(0,0,0,.3);
+}
+
+body.dark-mode footer{
+    background:#161b22;
+    color:white;
+}
+
+body.dark-mode table{
+    color:white;
+}
+
+body.dark-mode a{
+    color:#58a6ff;
+}
+
+body.dark-mode mark{
+    background:#7c5c00;
+    color:white;
+}
+#darkModeBtn{
+    position:fixed;
+    top:20px;
+    right:20px;
+    width:50px;
+    height:50px;
+    border:none;
+    border-radius:50%;
+    background:#161b22;
+    color:white;
+    font-size:22px;
+    cursor:pointer;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+    transition:.3s;
+    z-index:1000;
+}
+
+#darkModeBtn:hover{
+    transform:scale(1.1);
+}
+
